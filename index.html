@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radek Kotowski</title>
+    <link rel="icon" type="image/x-icon" href="favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&display=swap"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 80px 24px 120px;
+        color: #111;
+        line-height: 1.65;
+        font-size: 13.5px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-color: rgba(0, 0, 0, 0.25);
+        transition: text-decoration-color 0.15s;
+      }
+
+      a:hover {
+        text-decoration-color: rgba(0, 0, 0, 0.75);
+      }
+
+      h1 {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: 1.08rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      section {
+        margin-bottom: 44px;
+      }
+
+      .label {
+        font-size: 0.702rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        opacity: 0.35;
+        margin-bottom: 14px;
+      }
+
+      p {
+        opacity: 0.8;
+        margin-bottom: 12px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      ul li {
+        font-size: 0.837rem;
+        opacity: 0.8;
+        margin-bottom: 8px;
+        padding-left: 16px;
+        position: relative;
+      }
+
+      ul li::before {
+        content: "–";
+        position: absolute;
+        left: 0;
+        opacity: 0.35;
+      }
+
+      .inline-links {
+        display: flex;
+        gap: 20px;
+        margin-top: 16px;
+      }
+
+      .inline-links a {
+        font-size: 0.792rem;
+        opacity: 0.45;
+        text-decoration: none;
+        transition: opacity 0.15s;
+      }
+
+      .inline-links a:hover {
+        opacity: 0.9;
+      }
+
+      .label + ul + .label {
+        margin-top: 28px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Radek Kotowski</h1>
+      <p>
+        I'm a software engineer living in Warsaw, Poland. I graduated from
+        <a href="https://www.mimuw.edu.pl/en/">MIMUW</a> and have spent my
+        career on small teams across London, Warsaw, Palo Alto, Zurich, Toronto
+        and Berlin, often joining early, sometimes growing into leadership.
+      </p>
+      <p>
+        Currently building a white-label OTC exchange. Previously builder of the
+        Modern Finance Function at
+        <a href="https://alloyriver.com/">alloyriver.com</a>, Tech Lead at
+        <a href="https://21shares.com/">21shares.com</a> and Manager at
+        <a href="https://www.certara.com/basecase/">Certara</a>, where I sourced
+        and led a team of 10 engineers and established a Warsaw office.
+      </p>
+      <div class="inline-links">
+        <a href="https://www.linkedin.com/in/radek-kotowski/">LinkedIn</a>
+        <a href="https://github.com/radek-kotowski">GitHub</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="label">Commercial and Personal Projects</div>
+      <ul>
+        <li>
+          The Modern Finance Function at
+          <a href="https://alloyriver.com/">alloyriver.com</a>
+        </li>
+        <li>
+          ETF lifecycle management platform at
+          <a href="https://21shares.com/">21shares.com</a>
+          (early employee,
+          <a
+            href="https://www.21shares.com/en-eu/press/falconx-acquires-leading-etp-provider-21shares"
+            >acquired by FalconX</a
+          >)
+        </li>
+        <li>
+          No-code clinical value platform at
+          <a href="https://www.certara.com/basecase/">Certara</a>
+          (early employee, went public at a
+          <a
+            href="https://www.linkedin.com/posts/radek-kotowski_slightly-overdue-since-the-ipo-was-in-dec-activity-6773637714366513152-68wK/"
+            >$3.5 billion valuation</a
+          >)
+        </li>
+        <li>Instant messaging app at <a href="https://imo.im/">imo.im</a></li>
+        <li>
+          Machine learning engine at
+          <a href="https://deepsense.ai/">deepsense.ai</a>
+        </li>
+        <li>
+          Algorithmic investment strategies at
+          <a href="https://www.jpmorganchase.com/">J.P. Morgan</a>
+        </li>
+        <li>
+          iOS app at
+          <a
+            href="https://apps.apple.com/pl/app/habit-lock-master-your-will/id6761366547"
+            >App Store</a
+          >
+        </li>
+        <li>
+          Compilers, games, extensions, experiments at
+          <a href="https://github.com/radek-kotowski?tab=repositories"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
